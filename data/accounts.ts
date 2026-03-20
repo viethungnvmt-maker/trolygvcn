@@ -1,10 +1,11 @@
+import { CUSTOM_ACCOUNTS } from './customAccounts';
 
 // File chứa danh sách tài khoản và mật khẩu
 // Tài khoản: Tên GV
 // Mật khẩu: Ngày tháng năm sinh (hoặc quy định khác)
 // Expiry: 'VIP' hoặc ngày hết hạn 'YYYY-MM-DD'
 
-export const ACCOUNTS = [
+const BASE_ACCOUNTS = [
     { username: "GVCN", password: "12345", fullName: "Giáo Viên Chủ Nhiệm", expiry: "2026-05-25" },
     { username: "123", password: "123", fullName: "Nguyễn Việt Hùng", expiry: "VIP" },
     { username: "VoThiThuHang", password: "12345", fullName: "Võ Thị Thu Hằng", expiry: "VIP" },
@@ -51,3 +52,5 @@ export const ACCOUNTS = [
     { username: "0979707624", password: "12345", fullName: "Lê Thị Vân", expiry: "VIP" },
     { username: "0947519367", password: "12345", fullName: "Nguyễn Thị Hà", expiry: "VIP" }
 ];
+
+export const ACCOUNTS = [...BASE_ACCOUNTS, ...CUSTOM_ACCOUNTS];
