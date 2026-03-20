@@ -374,20 +374,25 @@ const AppContent: React.FC = () => {
                                 PHIÊN BẢN THỬ NGHIỆM ĐẾN HẾT 25/5/2026
                             </p>
                             <p className="text-sm text-slate-700 font-medium mb-4">
-                                Mọi thông tin chi tiết liên hệ thầy <span className="font-bold text-teal-700 text-base">Trần Hoài Thanh</span>
+                                Mọi thông tin chi tiết liên hệ thầy <span className="font-bold text-teal-700 text-base">Nguyễn Việt Hùng</span>
                             </p>
                             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
                                 <a 
-                                    href="https://www.facebook.com/tranhoaithanhvicko" 
+                                    href="https://www.facebook.com/viethungnvmt/" 
                                     target="_blank" 
                                     rel="noreferrer"
                                     className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg text-xs font-bold hover:bg-blue-700 transition w-full sm:w-auto justify-center shadow-sm shadow-blue-200"
                                 >
                                     <Facebook size={16} /> Facebook
                                 </a>
-                                <div className="flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 text-slate-700 rounded-lg text-xs font-bold cursor-default w-full sm:w-auto justify-center shadow-sm">
-                                    <Phone size={16} className="text-green-600"/> Zalo: 0348296773
-                                </div>
+                                <a
+                                    href="https://zalo.me/0363831337"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 text-slate-700 rounded-lg text-xs font-bold hover:border-green-300 hover:bg-green-50 transition w-full sm:w-auto justify-center shadow-sm"
+                                >
+                                    <Phone size={16} className="text-green-600"/> Zalo: 036.38.31.337
+                                </a>
                             </div>
                         </div>
                     </div>
