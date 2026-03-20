@@ -17,7 +17,7 @@ const LoginScreen: React.FC = () => {
     const success = login(username, password, title);
     
     if (!success) {
-        setError("LIÊN HỆ THẦY TRẦN HOÀI THANH 0348296773 ĐỂ ĐƯỢC HỖ TRỢ DÙNG APP");
+        setError("LIÊN HỆ THẦY NGUYỄN VIỆT HÙNG 036.38.31.337 ĐỂ ĐƯỢC HỖ TRỢ DÙNG APP");
     }
   };
 
@@ -120,7 +120,7 @@ const LoginScreen: React.FC = () => {
              <div className="flex items-center justify-center gap-2 text-slate-500 text-sm">
                 <Phone size={14} />
                 <span>Hỗ trợ kỹ thuật: </span>
-                <span className="font-bold text-teal-700">0348296773</span>
+                <span className="font-bold text-teal-700">036.38.31.337</span>
              </div>
         </div>
       </div>

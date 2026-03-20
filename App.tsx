@@ -302,7 +302,7 @@ const AppContent: React.FC = () => {
                                 </div>
                                 <div className="flex items-center justify-between border-b border-blue-200/50 pb-2">
                                     <span className="text-slate-500 text-sm font-medium">Chủ tài khoản</span>
-                                    <span className="font-bold text-slate-800 uppercase text-sm">TRẦN HOÀI THANH</span>
+                                    <span className="font-bold text-slate-800 uppercase text-sm">NGUYỄN VIỆT HÙNG</span>
                                 </div>
                                 <div className="bg-blue-100/50 p-3 rounded-lg border border-blue-200">
                                     <span className="text-xs text-slate-500 block mb-1 font-semibold uppercase">Nội dung chuyển khoản</span>
@@ -314,7 +314,7 @@ const AppContent: React.FC = () => {
                                 {/* QR Code Placeholder/Generator */}
                                 <div className="w-48 h-48 bg-white p-2 rounded-xl shadow-inner border border-slate-200 flex items-center justify-center overflow-hidden relative group cursor-pointer" title="Quét mã để thanh toán">
                                     <img 
-                                        src="https://img.vietqr.io/image/Agribank-2302205102323-compact.jpg?amount=&addInfo=&accountName=TRAN%20HOAI%20THANH"
+                                        src="https://img.vietqr.io/image/Agribank-2302205102323-compact.jpg?amount=&addInfo=&accountName=NGUYEN%20VIET%20HUNG"
                                         alt="QR Code Agribank"
                                         className="w-full h-full object-contain"
                                         onError={(e) => {
