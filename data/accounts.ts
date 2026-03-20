@@ -1,0 +1,53 @@
+
+// File chứa danh sách tài khoản và mật khẩu
+// Tài khoản: Tên GV
+// Mật khẩu: Ngày tháng năm sinh (hoặc quy định khác)
+// Expiry: 'VIP' hoặc ngày hết hạn 'YYYY-MM-DD'
+
+export const ACCOUNTS = [
+    { username: "GVCN", password: "12345", fullName: "Giáo Viên Chủ Nhiệm", expiry: "2026-05-25" },
+    { username: "123", password: "123", fullName: "Trần Hoài Thanh", expiry: "VIP" },
+    { username: "VoThiThuHang", password: "12345", fullName: "Võ Thị Thu Hằng", expiry: "VIP" },
+    { username: "0962299897", password: "12345", fullName: "Thầy Nguyễn Đức Mạnh", expiry: "VIP" },
+    { username: "0913499938", password: "12345", fullName: "Nguyễn Minh Trường", expiry: "VIP" },
+    { username: "Trương Khắc Nam", password: "12345", fullName: "Trương Khắc Nam", expiry: "VIP" },
+    { username: "0915647508", password: "12345", fullName: "Nguyễn Thị Ngọc", expiry: "VIP" },
+    { username: "0369769350", password: "12345", fullName: "Phan Thị Thu Phương", expiry: "VIP" },
+    { username: "0986212290", password: "12345", fullName: "Nguyễn Thị An", expiry: "VIP" },
+    { username: "0942358767", password: "12345", fullName: "Ma Đức Huân", expiry: "VIP" },
+    { username: "0987934113", password: "12345", fullName: "Cao Xuân Tường", expiry: "VIP" },
+    { username: "0356993032", password: "12345", fullName: "Nguyễn Huỳnh", expiry: "VIP" },
+    { username: "0912029752", password: "12345", fullName: "Trần Hà", expiry: "VIP" },
+    { username: "0935141341", password: "12345", fullName: "Kiều Thị Thanh Hà", expiry: "VIP" },
+    { username: "0868243955", password: "12345", fullName: "Nguyễn Thị Thùy Trang", expiry: "VIP" },
+    { username: "0983203291", password: "12345", fullName: "Đặng Thị Thẩm", expiry: "VIP" },
+    { username: "0353504969", password: "12345", fullName: "Phạm Thị Hà", expiry: "VIP" },
+    { username: "0359376876", password: "12345", fullName: "Phan Nguyễn Đan Thuy", expiry: "VIP" },
+    { username: "0932745745", password: "12345", fullName: "Nguyễn Minh Luân Vũ", expiry: "VIP" },
+    { username: "0961256664", password: "12345", fullName: "Nguyễn Minh Tuấn", expiry: "VIP" },
+    { username: "0365758213", password: "12345", fullName: "Đỗ Đăng Hoàng", expiry: "VIP" },
+    { username: "0975766243", password: "12345", fullName: "Phạm Thu Giang", expiry: "VIP" },
+    { username: "0818016095", password: "12345", fullName: "Nguyễn Thị Hường", expiry: "VIP" },
+    { username: "0976568093", password: "12345", fullName: "HOÀNG KIM LUÂN", expiry: "VIP" },
+    { username: "0383077039", password: "12345", fullName: "BÙI THỊ THU", expiry: "VIP" },
+    { username: "0777772198", password: "12345", fullName: "Nguyễn Thị Tường Vi", expiry: "VIP" },
+    { username: "0969205204", password: "12345", fullName: "Ao Thị Kim Anh", expiry: "VIP" },
+    { username: "0903052106", password: "12345", fullName: "Nguyễn Hữu Đông", expiry: "VIP" },
+    { username: "0989240069", password: "12345", fullName: "Huỳnh Ngọc Ngọc", expiry: "VIP" },
+    { username: "0984560800", password: "12345", fullName: "Nguyễn Văn Hùng", expiry: "VIP" },
+    { username: "0989550411", password: "12345", fullName: "Trương Thị Hương", expiry: "VIP" },
+    { username: "0378252157", password: "12345", fullName: "Nguyễn Hồng Thắm", expiry: "VIP" },
+    { username: "0907781595", password: "12345", fullName: "Nguyễn Văn Hà", expiry: "VIP" },
+    { username: "0389946485", password: "12345", fullName: "Tạ Thị Sang", expiry: "VIP" },
+    { username: "0886131368", password: "12345", fullName: "Nguyễn Quang", expiry: "VIP" },
+    { username: "0338383388", password: "12345", fullName: "Hoàng Thị Hoài Thanh", expiry: "VIP" },
+    { username: "0906467809", password: "12345", fullName: "Nguyễn Thị Ánh Nguyệt", expiry: "VIP" },
+    { username: "0338383388", password: "12345", fullName: "Hoàng Thị Hoài Thanh", expiry: "VIP" },
+    { username: "0387151399", password: "12345", fullName: "Dương Minh Trang", expiry: "VIP" },
+    { username: "0978656988", password: "12345", fullName: "Bùi Thị Hoàn", expiry: "VIP" },
+    { username: "0383752789", password: "12345", fullName: "Ksor Gé", expiry: "VIP" },
+    { username: "0969332990", password: "12345", fullName: "Phan Thị Thùy", expiry: "VIP" },
+    { username: "0988828659", password: "12345", fullName: "Trần Thị Tuyết", expiry: "VIP" },
+    { username: "0979707624", password: "12345", fullName: "Lê Thị Vân", expiry: "VIP" },
+    { username: "0947519367", password: "12345", fullName: "Nguyễn Thị Hà", expiry: "VIP" }
+];
