@@ -216,10 +216,12 @@ const AppContent: React.FC = () => {
                 <button
                     onClick={() => setMode(AppMode.VIP_UPGRADE)}
                     className={`flex items-center gap-2 px-3 md:px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200 whitespace-nowrap
-                    ${mode === AppMode.VIP_UPGRADE ? 'bg-blue-50 text-blue-600 shadow-sm ring-1 ring-blue-200' : 'text-blue-600 hover:text-blue-700 hover:bg-blue-50'}`}
+                    ${mode === AppMode.VIP_UPGRADE ? 'bg-amber-50 text-amber-700 shadow-sm ring-1 ring-amber-200' : 'bg-amber-50/70 text-amber-700 hover:text-amber-800 hover:bg-amber-100'}`}
                 >
                     <Gem size={18} />
-                    <span className="hidden md:inline">Nâng cấp VIP</span>
+                    <span className="hidden md:inline rounded-full bg-amber-100 px-2 py-0.5 text-xs font-bold text-amber-800">
+                        VIP đã kích hoạt
+                    </span>
                 </button>
                 </nav>
 
