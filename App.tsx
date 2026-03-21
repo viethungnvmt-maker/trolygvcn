@@ -292,13 +292,13 @@ const AppContent: React.FC = () => {
                                 <div className="flex items-center justify-between border-b border-blue-200/50 pb-2">
                                     <span className="text-slate-500 text-sm font-medium">Ngân hàng</span>
                                     <span className="font-bold text-slate-800 flex items-center gap-2">
-                                        <div className="w-6 h-6 bg-red-800 rounded-md flex items-center justify-center text-white text-[9px] font-bold">A</div>
-                                        Agribank
+                                        <div className="w-6 h-6 bg-blue-700 rounded-md flex items-center justify-center text-white text-[9px] font-bold">B</div>
+                                        BIDV
                                     </span>
                                 </div>
                                 <div className="flex items-center justify-between border-b border-blue-200/50 pb-2">
                                     <span className="text-slate-500 text-sm font-medium">Số tài khoản</span>
-                                    <span className="font-bold text-slate-800 tracking-wider text-lg">2302205102323</span>
+                                    <span className="font-bold text-slate-800 tracking-wider text-lg">8840489907</span>
                                 </div>
                                 <div className="flex items-center justify-between border-b border-blue-200/50 pb-2">
                                     <span className="text-slate-500 text-sm font-medium">Chủ tài khoản</span>
@@ -311,16 +311,16 @@ const AppContent: React.FC = () => {
                             </div>
 
                             <div className="flex flex-col items-center">
-                                {/* QR Code Placeholder/Generator */}
+                                {/* QR payment image */}
                                 <div className="w-48 h-48 bg-white p-2 rounded-xl shadow-inner border border-slate-200 flex items-center justify-center overflow-hidden relative group cursor-pointer" title="Quét mã để thanh toán">
                                     <img 
-                                        src="https://img.vietqr.io/image/Agribank-2302205102323-compact.jpg?amount=&addInfo=&accountName=NGUYEN%20VIET%20HUNG"
-                                        alt="QR Code Agribank"
+                                        src="https://img.vietqr.io/image/BIDV-8840489907-compact2.jpg?amount=&addInfo=&accountName=NGUYEN%20VIET%20HUNG"
+                                        alt="QR Code BIDV"
                                         className="w-full h-full object-contain"
                                         onError={(e) => {
                                             e.currentTarget.onerror = null; 
                                             // Fallback
-                                            e.currentTarget.src='https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=2302205102323'; 
+                                            e.currentTarget.src='https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=8840489907'; 
                                         }}
                                     />
                                 </div>
